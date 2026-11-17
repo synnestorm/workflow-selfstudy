@@ -1,0 +1,30 @@
+{
+  "name": "workflow-selfstudy",
+  "version": "1.0.0",
+  "description": "This repository is a lesson for my course on workflow. This is only for practice.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/synnestorm/workflow-selfstudy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/synnestorm/workflow-selfstudy/issues"
+  },
+  "homepage": "https://github.com/synnestorm/workflow-selfstudy#readme",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.15.0",
+    "globals": "^17.14.0",
+    "prettier": "^3.10.1",
+    "vite": "^8.3.8"
+  }
+}
