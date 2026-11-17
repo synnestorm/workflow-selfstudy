@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/synnestorm/workflow-selfstudy/issues"
   },
-  "homepage": "https://github.com/synnestorm/workflow-selfstudy#readme"
+  "homepage": "https://github.com/synnestorm/workflow-selfstudy#readme",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.15.0",
+    "globals": "^17.14.0"
+  }
 }
