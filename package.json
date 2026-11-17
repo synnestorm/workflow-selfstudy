@@ -1,0 +1,20 @@
+{
+  "name": "workflow-selfstudy",
+  "version": "1.0.0",
+  "description": "This repository is a lesson for my course on workflow. This is only for practice.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/synnestorm/workflow-selfstudy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/synnestorm/workflow-selfstudy/issues"
+  },
+  "homepage": "https://github.com/synnestorm/workflow-selfstudy#readme"
+}
