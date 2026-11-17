@@ -9,14 +9,19 @@ In this repository I will create a small project that:
 - Uses Git, GitHub, branches, and pull requests.
 - Uses README.md with proper Markdown.
 - Uses npm, installs dependencies, and sets up scripts.
-- Uses Eslint and Prettier with config files.
+- Uses ESlint and Prettier with config files.
 - (Optional) Uses .env variables via Vite.
 - (Optional) Uses GitHub Actions to deploy.
 
-## Built With
+## Technologies used
 
 - HTML5
-- JavaScript
+- Vanilla JavaScript
+- CSS3
+- Vite
+- ESLint
+- Prettier
+- npm
 
 ## Getting Started
 
@@ -34,10 +39,23 @@ git clone git@github.com:synnestorm/workflow-selfstudy.git
 npm install
 ```
 
-### Running
+### npm Scripts
 
-To run the app, run the following commands:
+Available npm scripts:
 
 ```bash
-npm run start
+npm run dev
+npm run lint
+npm test
+```
+
+## Environment Variables
+
+This project uses environment variables to store configuration.
+
+1. Create a `.env` file in the project root.
+2. Add the following variable:
+
+```env
+VITE_API_URL=https://jsonplaceholder.typicode.com/posts
 ```
